@@ -2,7 +2,7 @@ import os, sys
 import pandas as pd
 import numpy as np
 from src.logger import logging
-from src.exception import CustmeException
+from src.exception import CustomException
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
 from dataclasses import dataclass
