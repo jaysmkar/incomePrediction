@@ -7,8 +7,7 @@ app = Flask(__name__)
 def prediction_data():
     if request.method == "GET":
         return render_template("home.html")
-    
-    else:
+    else: 
         data = CustomeClass(
             age = int(request.form.get("age")),
             workclass = int(request.form.get("workclass")),
